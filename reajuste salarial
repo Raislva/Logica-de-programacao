@@ -1,0 +1,22 @@
+//Escreva um algoritimo para ler o salário mensal 
+//e o percentual de reajuste. Calcular e escrever 
+//valor do novo salário
+
+package pjava;
+ 
+import java.util.Scanner;
+
+public class Salario {
+    public static void main(String[] args){
+
+    double salario, reajuste, novoSalario;
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("Digite o valor do salario R$:");
+    salario = entrada.nextDouble();
+    System.out.println("Digite o % de reajuste: ");
+    reajuste = entrada.nextDouble();
+    novoSalario = (salario*(reajuste/100))+salario;
+    System.out.println("O novo salário é R$" + novoSalario);
+
+} 
+}
