@@ -1,0 +1,20 @@
+//faça um algoritimo que receba um número
+//e informe se ele é par
+package pjava;
+
+import java.util.Scanner;
+
+public class Exerc06 {
+  public static void main(String[] args){ 
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("Entre com um valor: ");
+    int valor = entrada.nextInt();
+    int resto = valor %2;
+    if ((valor % 2)== 0){
+    System.out.println("Este valor é par. ");
+    } else {
+    System.out.println("Este valor é impar =" +resto);
+    }
+    
+      
+}}
