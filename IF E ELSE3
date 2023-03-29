@@ -1,0 +1,23 @@
+//CRIE UM PROGGRAMA QUE LEIA DOIS NÚMEROS E IMPRIMA UMA
+//MENSAGEM DIZENDO QUE NÃO SE SÃO IGUAIS OU DIFERENTES
+
+package pjava;
+
+import java.util.Scanner;
+
+ class EXERC3 {
+     public static void main(String[] args){
+     Scanner entrada = new Scanner(System.in);
+     System.out.println("Digite o primeiro valor");
+     int num1 = entrada.nextInt();
+     System.out.println("Digite o segundo valor: ");
+     int num2 = entrada.nextInt();
+     
+     if (num1 == num2) {
+     System.out.println("Valores iguais." );
+     } else {
+      System.out.println("Valores diferentes.");
+     }
+     
+     }
+}
